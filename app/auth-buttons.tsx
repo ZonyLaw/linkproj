@@ -2,6 +2,7 @@
 
 import { Show, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export default function AuthButtons() {
   return (
@@ -9,20 +10,12 @@ export default function AuthButtons() {
       <Show when="signed-out" treatPendingAsSignedOut={false}>
         <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
           <SignInButton mode="modal" fallbackRedirectUrl="/">
-            <button
-              className="inline-flex h-11 min-w-36 items-center justify-center rounded-md bg-foreground px-5 text-sm font-medium text-background transition-colors hover:opacity-85"
-              type="button"
-            >
-              Sign in
-            </button>
+            <Button type="button">Sign in</Button>
           </SignInButton>
           <SignUpButton mode="modal" fallbackRedirectUrl="/">
-            <button
-              className="inline-flex h-11 min-w-36 items-center justify-center rounded-md border border-foreground/20 px-5 text-sm font-medium text-foreground transition-colors hover:bg-foreground/5"
-              type="button"
-            >
+            <Button variant="outline" type="button">
               Sign up
-            </button>
+            </Button>
           </SignUpButton>
         </div>
       </Show>

@@ -10,7 +10,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## GitHub Customizations
 
-This project follows the instructions and workflows specified in these Markdown files:
+This project follows the instructions and workflows specified in these Markdown files located in the /docs folder:
 
 - [Instruction Generator agent](.github/agents/instructions-generator.agent.md)
 - [Create instructions prompt](.github/prompts/create-instructions.prompt.md)
