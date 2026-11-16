@@ -1,6 +1,7 @@
 "use client";
 
 import { Show, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
+import Link from "next/link";
 
 export default function AuthButtons() {
   return (
@@ -30,6 +31,12 @@ export default function AuthButtons() {
           <span className="text-sm text-zinc-600 dark:text-zinc-400">
             You&apos;re signed in
           </span>
+          <Link
+            className="text-sm font-medium text-foreground underline-offset-4 hover:underline"
+            href="/dashboard"
+          >
+            Dashboard
+          </Link>
           <UserButton />
         </div>
       </Show>
