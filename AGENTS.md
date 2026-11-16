@@ -14,3 +14,4 @@ This project follows the instructions and workflows specified in these Markdown 
 
 - [Instruction Generator agent](.github/agents/instructions-generator.agent.md)
 - [Create instructions prompt](.github/prompts/create-instructions.prompt.md)
+- [Sign-in and sign-up button instructions](docs/sign-in-up-buttons.md)
