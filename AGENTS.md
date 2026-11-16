@@ -8,6 +8,12 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 <!-- END:nextjs-agent-rules -->
 
+## Critical requirement: read the relevant documentation before writing code
+
+Before generating, editing, or proposing any code in this project, read the relevant documentation and project instructions first. This is mandatory and is critical to avoiding incorrect assumptions, outdated patterns, and mismatches with the app's actual architecture.
+
+For this project, the required review includes the relevant docs in the /docs folder and any framework-specific guidance such as the Next.js docs in `node_modules/next/dist/docs/` when applicable. Do not generate code until the relevant documentation has been read and understood.
+
 ## GitHub Customizations
 
 This project follows the instructions and workflows specified in these Markdown files located in the /docs folder:
